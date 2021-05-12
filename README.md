@@ -17,14 +17,17 @@ The variables that can be exported for each participant are:
 3. Number of mistakes during the familarization period
 4. Number of repetions of the instructions
 
-For the article by [Koch et al. (submitted)](#blank) we focused on the analysis of the data from the second category and computed the following indices:
+For the article by [Koch et al. (submitted)](#blank) we focused on the analysis of the data from the second category and computed the following indices described by [Moosbrugger & Oehlschlägel (2011)](#blank):
 
 - G = total number of items attempted within the time limit
 - FV = number of misses
 - FA = number of false alarms
 - L = attentive performance; L = G - 2 x (FV + FA)
 - Q = performance quality; Q = L / G
+- K = performance consistency; K = L \* Q
 
 ## References
 
-Koch, M., Moeller, C., & Spinath, F.M. (submitted). Are you Swiping, or Just Marking? Development and Evaluation of the Attention Swiping Task
+Koch, M., Moeller, C., & Spinath, F.M. (submitted). _Are you Swiping, or Just Marking? Development and Evaluation of the Attention Swiping Task_
+
+Moosbrugger, H., & Oehlschlägel, J. (2011). _Frankfurter Aufmerksamkeits-Inventar 2: FAIR-2_ [Measurement instrument]. Huber.

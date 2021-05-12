@@ -26,6 +26,18 @@ For the article by [Koch et al. (submitted)](#blank) we focused on the analysis 
 - Q = performance quality; Q = L / G
 - K = performance consistency; K = L \* Q
 
+## Technical Details
+
+The AST has been developed as a web app with HTML5, CSS, and JavaScript. In this version there are no external dependencies but [jQuery](https://github.com/jquery/jquery) (a local copy can be found within this repository, in case the test should be implemented for offline studies).
+
+The AST has already been tested on a broad range of different devices and has generally worked well with few technical problems. Nonetheless, there are some noteworthy exceptions:
+
+- E-readers are not appropriate for taking the AST as their monitor refresh rate and responsiveness is too slow
+- The AST uses swiping guestures. On some devices it can happen that OS guestures override the test or lead to undesired behavior (e.g., on iOS Safari, swiping from left to right can navigate to the previous site)
+- JavaScript blockers should be disabled for the AST as this can lead to unexpected behavior
+- The test can also be taken on a computer with the mouse or track pad, however, it is unclear how comparable the results are because of different response speed
+- In rare cases iOS devices have zoomed in on the test making it difficult to sort flowers. Double tapping usually solved the problem.
+
 ## References
 
 Koch, M., Moeller, C., & Spinath, F.M. (submitted). _Are you Swiping, or Just Marking? Development and Evaluation of the Attention Swiping Task_
